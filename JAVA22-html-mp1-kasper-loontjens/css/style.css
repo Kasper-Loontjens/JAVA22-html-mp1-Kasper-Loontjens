@@ -39,12 +39,15 @@ form{
 .tagg{
     text-align: right;
 }
-.board a{
+.board a, li a{
     display: block;
     padding: 12px;
     text-decoration: none;
     background-color:darkslategrey;
     color: white;
+}
+li{
+    margin-top: 2px;
 }
 main img{
     display: block;
@@ -52,7 +55,7 @@ main img{
     margin: auto;
     border-radius: 50%;
 }
-.board a:hover {background-color: brown;}
+.board a:hover,li a:hover {background-color: brown;}
 .adds{
     position: sticky;
     top: 0;
